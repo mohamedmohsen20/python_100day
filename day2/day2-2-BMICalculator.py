@@ -13,3 +13,9 @@ weight = input("enter your weight in kg: ")
 bmi=int(height)/(float(weight)**2)
 bmi_as_int=int(bmi)
 print("BMI=",bmi_as_int)
+
+#use round function
+print(round(bmi,2))
+
+#use f_print
+print(f"BMI is {bmi}")
